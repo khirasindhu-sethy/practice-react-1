@@ -5,11 +5,11 @@ import UserOutput from "./components/UserOutput.js";
 
 export class App extends Component {
   state = {
-    username: "Lipika",
+    username: "Budhi",
   };
   changeName = () => {
     this.setState({
-      username: "budhi",
+      username: "bayani",
     });
   };
   typedName = (e) => {
